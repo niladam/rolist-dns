@@ -1,6 +1,6 @@
 #
 # DNS blocklist from rolist
-# original *ADBLOCK* file is located at 
+# original *ADBLOCK* file is located at
 # https://www.zoso.ro/pages/rolist.txt
 #
 # Location of this file should be..
@@ -83,3 +83,21 @@ zopim.com
 arbocontext.ro
 einformatii.ro
 img.2parale.ro
+# YOUTUBE ads start.
+#
+# According to
+# https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253
+# this will block youtube ads.
+r4---sn-vgqs7nez.googlevideo.com
+r4.sn-vgqs7nez.googlevideo.com
+www.youtube-nocookie.com
+i1.ytimg.com
+r17---sn-vgqsenes.googlevideo.com
+r2---sn-vgqs7n7k.googlevideo.com
+# apparently this is causing some issues with Google drive
+# clients6.google.com
+r1---sn-vgqsen7z.googlevideo.com
+r1.sn-vgqsen7z.googlevideo.com
+r20---sn-vgqs7ne7.googlevideo.com
+r20.sn-vgqs7ne7.googlevideo.com
+# YOUTUBE ads end.
